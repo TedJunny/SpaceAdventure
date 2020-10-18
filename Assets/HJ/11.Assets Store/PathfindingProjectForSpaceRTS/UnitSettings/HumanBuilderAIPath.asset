@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a04db7cb75aac8438515083e7e5dc66, type: 3}
+  m_Name: HumanBuilderAIPath
+  m_EditorClassIdentifier: 
+  userName: Builder
+  buildPoints: 20
+  gameplayPrefab: {fileID: 1902192920509294, guid: 964433909d1e5344fa936ecd045af481,
+    type: 2}
+  visualPrefab: {fileID: 1508733538687290, guid: da97cf948855c6e45a11cc64561e1ab5,
+    type: 2}
+  placementPrefab: {fileID: 0}
+  radius: 1
+  resourceRequirement: []
+  uiImage: {fileID: 21300000, guid: f54b37b3def577f4bb601e3df7081ede, type: 3}
+  staticBuildables: []
+  mobileBuildables:
+  - {fileID: 11400000, guid: a8112670b61c5924eb697180226e94cf, type: 2}
+  buildRate: 1
+  loadingRate: 1
+  unloadingRate: 1
+  movementData:
+    maxSpeed: 4
+    rotSpeed: 80
+    accel: 2
+    maneuverFactor: 0
+    fullStopFactor: 0.95
+    rollFactor: 0.5
+    rollSpeed: 40

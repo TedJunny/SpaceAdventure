@@ -34,6 +34,8 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
+*.png
+*.fbx
 *.userprefs
 *.pidb
 *.booproj
